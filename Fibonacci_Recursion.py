@@ -4,7 +4,7 @@ def fibonacci(n):
     else:
         return fibonacci(n-1) + fibonacci(n-2)
 
-n = int(input("Enter the number of terms: "))
+n = int(input("Enter the number of terms : "))
 
 print("Fibonacci Sequence:")
 for i in range(n):
