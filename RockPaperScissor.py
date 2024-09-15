@@ -1,11 +1,7 @@
-from getpass import getpass as get_input
-
-exit = " "
-while exit != "no":
-    
-    print("Epic battle of 🪨  📃  ✂️ ")
-    print()
-    print("Select your move (R, P or S)")
+from getpass import getpass as input
+print("Epic battle of 🪨  📃  ✂️ ")
+print()
+print("Select your move (R, P or S)")
 
     P1_choice = get_input("Player 1 : ")
     P2_choice = get_input("Player 2 :")
@@ -39,22 +35,22 @@ while exit != "no":
         else:
             print("Invalid Choice!! By Player 2")
 
-    elif P1_choice in ("S", "s"):
-        if P2_choice in ("R", "r"):
-            print("!! Player 2 won !!")
-            print("Player 1 Scissors got smashed by Player 2 Rocks")
-        elif P2_choice in ("P", "p"):
-            print("!! Player 1 won !!")
-            print("Player 2 Paper is cut into pieces by Player 1 Scissors")
-        elif P2_choice in ("S", "s"):
-            print("________DRAW________")
-            print("Oh You both chose Scissors!!")
-        else:
-            print("Invalid Choice!! By Player 2")
+elif P1_choice in ("S" , "s"):
+  if P2_choice in("R" , "r"):
+    print("!! Player 2 won !!")
+    print("Player 1 Scissors got smashed by Player 2 Rocks")
+  elif P2_choice in("p" , "p"):
+    print("!! Player 1 won !!")
+    print("Player 2 Paper is cut into pieces by Player 1 Scissors")
+  elif P2_choice in("S" , "s"):
+    print("________DRAW________")
+    print("Oh You both chose Scissors!!")
+  else:
+    print("Invalid Choice!! By Player 2")
+
+
+
+
+
+
     
-    else:
-        print("Invalid Choice!! By Player 1")
-
-
-    exit = input("Play if not type no : ")
-    print()
