@@ -56,5 +56,5 @@ while exit != "no":
         print("Invalid Choice!! By Player 1")
 
 
-    exit = input("Play if not type no : ")
+    exit = input("Play : ")
     print()
