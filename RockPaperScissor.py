@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 from getpass import getpass as get_input
+=======
+from getpass import getpass as input
+print("Epic battle of 🪨  📃  ✂️ ")
+print()
+print("Select your move (R, P or S)")
+>>>>>>> f2c992781ac39128b13cb55b96dd91d8509b7997
 
 exit = " "
 while exit != "no":
