@@ -1,3 +1,4 @@
+from getpass import getpass as input
 print("Epic battle of 🪨  📃  ✂️ ")
 print()
 print("Select your move (R, P or S)")
