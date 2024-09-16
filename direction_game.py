@@ -1,4 +1,3 @@
-import sys
 while True :
 
     print("wher do u want to go : ")
@@ -11,5 +10,5 @@ while True :
         continue
     else:
         print("yay u won the game")
-        sys.exit()
+        exit(0)
 print("the game is over u failed ")
