@@ -10,5 +10,5 @@ while True :
         continue
     else:
         print("yay u won the game")
-        exit(0)
+        exit()
 print("the game is over u failed ")
