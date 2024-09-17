@@ -1,3 +1,4 @@
+#this code can igrore the spaces and also can igrone letter case. ex: str1 is in capital and str2 is in small as both are converted to lower 
 def a(str1,str2):
     str1 = str1.replace(" ","").lower()
     str2 = str2.replace(" ","").lower()
