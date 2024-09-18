@@ -15,5 +15,5 @@ def int_to_roman(num):
 
     return roman_numerical
 
-num = int(input("Enter the number : "))
+num = int(input("Enter the Number: "))
 print(int_to_roman(num))
