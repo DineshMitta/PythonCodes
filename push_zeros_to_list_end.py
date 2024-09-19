@@ -1,20 +1,18 @@
-# Input
-n = int(input())  
-arr = list(map(int, input().split()))  
 
 
-result = []
+n = int(input())
 
+arr = list(map(int, input().split()))
 
-for num in arr:
-    if num != 0:
-        result.append(num)
+res = []
 
+for n in arr:
+    if n != 0:
+        res.append(n)
+    
 
-zero_count = arr.count(0)
+zero_c = arr.count(0)
 
+res.extend([0] * zero_c)
 
-result.extend([0] * zero_count)
-
-
-print(*result)
+print(*res)
