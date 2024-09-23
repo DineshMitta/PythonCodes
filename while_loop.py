@@ -1,5 +1,5 @@
 exit = " "
 
 while exit != "yess":
-    print("🥳!!")
+    print("🥳!!!")
     exit = input("Exit?= ")
