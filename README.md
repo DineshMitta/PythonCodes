@@ -1,1 +1,1 @@
-Collection of Python Programs 
+--- Collection of Python Programs ---
